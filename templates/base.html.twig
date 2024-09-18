@@ -18,7 +18,7 @@
             <div class="col-sm-12 col-lg-3">
                 <img src="/img/Rectangle 2.png" class="d-block w-100" alt="logo">
             </div>
-            <div class="col-sm-12 col-lg-9"><h1 class="text-center text-light">VIVEZ L'EXPÉRIENCE</h1></div>
+            <div class="col-sm-12 col-lg-9"><h1 class="text-center text-light">{{ 'index.exp' |trans }}</h1></div>
         </div>
         <nav class="navbar navbar-expand-lg" style="background-color:#FFED00">
         <div class="container-fluid">
@@ -27,25 +27,25 @@
             </button>
             <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav-pills">
                 <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="{{path("app_index")}}">Acceuil</a>
+                <a class="nav-link active" aria-current="page" href="/">{{ 'index.acc' |trans }}</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="#">Nos Services</a>
+                <a class="nav-link" href="#">{{ 'index.serv' |trans }}</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="#">Notre Histoire</a>
+                <a class="nav-link" href="#">{{ 'index.hist' |trans }}</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" href="#">{{ 'index.con' |trans }}</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="{{path('app_fr')}}">Français</a>
+                <a class="nav-link" href="/fr">{{ 'index.fr' |trans }}</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="{{path('app_en')}}">Anglais</a>
+                <a class="nav-link" href="/en">{{ 'index.en' |trans }}</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="{{path('app_rus')}}">Russe</a>
+                <a class="nav-link" href="/rus">{{ 'index.rus' |trans }}</a>
                 </li>
             </ul>
             </div>
